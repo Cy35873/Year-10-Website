@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="mystyle.css">
+        <meta charset="UTF-8">
+        <title>Cy's Website | Cool math stuff I discovered</title>
+        <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+        <style>
+            ::-webkit-scrollbar {
+                width: 5px;
+            }
+            ::-webkit-scrollbar-track {
+                background: rgb(10,10,10);
+            }
+            ::-webkit-scrollbar-thumb {
+                background: rgb(50,50,50);
+                border-radius: 3px;
+            }
+            ::-webkit-scrollbar-thumb:hover {
+                background: #555;
+                }
+        </style>
+    </head>
+    <body style="background-color:rgb(15,15,15); color: white; margin-left: 10vw; margin-right: 10vw; margin-top: 40px;">
+        <adis href="cy.html">Cool math stuff I discovered</adis>
+        <a href="wbesiters.html">Cool Software</a>
+        <h1>
+            Cool math stuff I discovered
+        </h1>
+        <img src="yesyes.jpg">
+        <h3>
+            3D prism of \(s\) sides
+        </h3>
+        <p>First, define the perameter variables</p>
+        <h2>
+            \[0\le R_1<\tau\]
+            \[0\le R_2<\tau\]
+            \[s\in\mathbb Z^+\]
+            \[\Lambda=[0\cdots S]\]
+            \[h\in\mathbb R\]
+        </h2>
+        <p>Then we can use a big list of points from our perameters</p>
+        <h2>\[B=\left(\cos\left(R_1+\frac\tau s\Lambda\right),\sin\left(R_1+\frac\tau s\Lambda\right)\cos R_2\right)\]
+            \[T=\left(B.x,B.y+h\sin R_2\right)\]
+        </h2>
+        <p>And join the points up to make lines</p>
+        <h2>
+            \[\operatorname{polygon}\left(B\right)\]
+            \[\operatorname{polygon}\left(T\right)\]
+            \[\operatorname{polygon}\left(B,T\right)\]
+        </h2>
+        <a href="https://www.desmos.com/calculator/sn4aqdtfkf">Try it out</a>
+        <h3>
+            Create \(\arcsin x\) from scratch
+        </h3>
+        <h2>
+            \[\int_0^x\frac1{\sqrt{1-t^2}}dt=\arcsin x\]
+        </h2>
+        <p>
+            Also, \(\frac1{\arcsin'x}=\sqrt{1-x^2}\)
+        </p>
+        <h3>
+            Create \(\arctan x\) from scratch
+        </h3>
+        </h3>
+        <h2>
+            \[\int_0^x\frac1{t^2+1}dt=\arctan x\]
+        </h2>
+        <p>
+            Also, \(\frac1{\arctan'x}-1=x^2\)
+        </p>
+        <h3>
+            Just some cool stuff
+        </h3>
+        <h2>
+            \[\frac{\sqrt2}2=\frac1{\sqrt2}\]
+            \[\varphi^{-1}=\varphi-1\]
+            \[\varphi^2=\varphi+1\]
+        </h2>
+        <h3>
+            Calculate \(\pi\) using an integral
+        </h3>
+        <h2>
+            \[4\int_0^1\frac1{x^2+1}dx=\pi\]
+            \[\int\frac1{x^2+1}dx=\arctan x+C\]
+            \[\therefore4\int_0^1\arctan x\,dx=\pi\]
+        </h2>
+        <c>
+            Equations rendered using MathJax
+        </c>
