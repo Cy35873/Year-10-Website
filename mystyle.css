@@ -148,5 +148,11 @@ pre {
     top: 50%;
     right: 20px;
     transform: translateY(-50%);
-    z-index: 9999;
+    z-index: 1;
   }
+.round {
+    border-radius: 5px;
+}
+.vido {
+    width: 140px;
+}
