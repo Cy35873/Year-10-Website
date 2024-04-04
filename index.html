@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html>
     <head>
+        <link rel="icon" type="image/x-icon" href="ico.png" />
         <link rel="stylesheet" href="mystyle.css">
         <meta charset="UTF-8">
         <title>Cy's Website | Cool math stuff I discovered</title>
@@ -22,11 +23,14 @@
         </style>
     </head>
     <body style="background-color:rgb(15,15,15); color: white; margin-left: 10vw; margin-right: 10vw; margin-top: 40px;">
-        <adis href="cy.html">Cool math stuff I discovered</adis>
-        <a href="wbesiters.html">Cool Software</a>
+        <div class="container">
+            <adis class="nav" href="index.html">--> Cool math stuff I discovered</adis>
+            <a class="nav" href="wbesiters.html">Cool Software and Websites</a>
+        </div>
         <h1>
             Cool math stuff I discovered
         </h1>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/zZ7AimPACzc" title="" frameBorder="0"   allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"  allowFullScreen><br>Powered by <a href="https://youtubeembedcode.com">embed youtube video html</a> and <a href="https://nouc.se/">https://nouc.se/</a></iframe>
         <img src="yesyes.jpg">
         <h3>
             3D prism of \(s\) sides
@@ -84,6 +88,11 @@
             \[4\int_0^1\frac1{x^2+1}dx=\pi\]
             \[\int\frac1{x^2+1}dx=\arctan x+C\]
             \[\therefore4\int_0^1\arctan x\,dx=\pi\]
+        </h2>
+        <h3>The thingy I discovered to help evaluate \(\lim_{x\to n}\frac{f(x)}{g(x)}\)</h3>
+        <h2>
+            \[\lim_{x\to n}\frac{f(x)}{g(x)}=\lim_{x\to n}\frac{xf'(n)+f(n)}{xg'(n)+g(n)}\]
+            \[\text{For exmaple}\quad\lim_{x\to 0}\frac{\sin x}x=\lim_{x\to0}\frac{x\sin'x}{x\frac d{dx}}=\lim_{x\to0}\frac xx=1\]
         </h2>
         <c>
             Equations rendered using MathJax

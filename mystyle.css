@@ -58,7 +58,7 @@ a {
     border: 1px solid rgb(100,100,100);
     border-radius: 10px;
     text-decoration: none;
-
+    display: inline-block;
 }
 a:hover {
         background-color: rgb(255,255,255);
@@ -81,6 +81,7 @@ adis {
     border: 1px solid rgb(100,100,100);
     border-radius: 13px;
     text-decoration: none;
+    display: inline-block;
 
 }
 .img2 {
@@ -114,4 +115,31 @@ bgtv {
     border-radius: 10px;
     text-shadow: 0px 3px 1px rgba(0, 0, 0, 0.3);
     margin-top: 50px
+}
+bgtc {
+    font-family: 'Inter Tight';
+    font-size: 32px;
+    background-image: url('colour.png');
+    background-size: 100% 100%;
+    padding: 15px;
+    width: 100%-20px;
+    height: 300px;
+    display: block;
+    border-radius: 10px;
+    text-shadow: 0px 2.5px 2px rgba(000,000,000,0.5);
+    margin-top: 50px
+}
+.nav {
+    background-color: rgba(000,000,000,0);
+    border: 0px;
+    text-align: center;
+}
+.container {
+    text-align: center;
+}
+pre {
+    background-color: rgb(020, 020, 020);
+    border: 1px solid rgb(100, 100, 100);
+    border-radius: 3px;
+    padding-left: 15px;
 }
