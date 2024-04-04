@@ -143,3 +143,10 @@ pre {
     border-radius: 3px;
     padding-left: 15px;
 }
+#video-container {
+    position: fixed;
+    top: 50%;
+    right: 20px;
+    transform: translateY(-50%);
+    z-index: 9999;
+  }
