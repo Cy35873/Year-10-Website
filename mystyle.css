@@ -144,8 +144,7 @@ bgtd {
     height: 300px;
     display: block;
     border-radius: 6px;
-    margin-top: 50px;
-    box-shadow: 0px 3px 1px rgba(1, 1, 1, 1);
+    margin-top: 25px;
 }
 .nav {
     border: 0px;
@@ -175,11 +174,12 @@ bgtd {
     background-color: rgb(15,15,15);
     z-index: 1000;
     margin-left: 6px;
+    box-shadow: 0 4px 3px rgba(0,0,0,0.3);
 }
 pre {
     background-color: rgb(020, 020, 020);
     border: 1px solid rgb(100, 100, 100);
-    border-radius: 3px;
+    border-radius: 6px;
     padding-left: 15px;
 }
 #video-container {
